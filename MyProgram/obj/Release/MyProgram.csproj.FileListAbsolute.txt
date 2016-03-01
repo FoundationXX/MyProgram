@@ -3,3 +3,4 @@ C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\bin\Rel
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\bin\Release\MyProgram.pdb
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\obj\Release\MyProgram.exe
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\obj\Release\MyProgram.pdb
+C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\obj\Release\MyProgram.csprojResolveAssemblyReference.cache

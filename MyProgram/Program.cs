@@ -10,11 +10,11 @@ namespace MyProgram
     {
         public List<double> NthFibonacci(int n)
         {
-            List<double> result = new List<double> {0,1}; //use double to avoid overflow problem
+            List<double> result = new List<double> { 0, 1 }; //use double to avoid overflow problem
             Console.WriteLine("Running NthFibonacci function, assuming the first two in the list would be 0, 1......");
             double recent0 = 0;
             double recent1 = 1;
-            for (int i = 0; i < n-2; i++)
+            for (int i = 0; i < n - 2; i++)
             {
                 double newFibonacci = recent0 + recent1;
                 recent0 = recent1;
@@ -39,7 +39,7 @@ namespace MyProgram
                 {
                     continue;
                 }
-            } 
+            }
             return result;
         }
 
@@ -55,14 +55,15 @@ namespace MyProgram
             {
                 return false;
             }
-            else if(x == 2) {
-                return true;
-            }            
-
-            double mark = Math.Floor(Math.Sqrt(x));            
-            for(double i = 2; i <= mark; i++)
+            else if (x == 2)
             {
-                if(x%i == 0)
+                return true;
+            }
+
+            double mark = Math.Floor(Math.Sqrt(x));
+            for (double i = 2; i <= mark; i++)
+            {
+                if (x % i == 0)
                 {
                     return false;
                 }
@@ -119,9 +120,9 @@ namespace MyProgram
                             Console.WriteLine("Input is not an integer, terminating NthFibonacci function...\n");
                             break;
                         }
-                        
-                        
-                    }                   
+
+
+                    }
                 }
                 //***********************************************************************************************************************//
                 else if (userCommand.Equals("P") || userCommand.Equals("p"))
@@ -168,16 +169,17 @@ namespace MyProgram
                         Console.WriteLine("\nType a list of strings seperated by commas, or type q and press Enter to quit current function");
                         String input = Console.ReadLine();
                         //Console.WriteLine(input.ToString());
-                        if (input.Equals("q")||input.Equals("Q"))
+                        if (input.Equals("q") || input.Equals("Q"))
                         {
                             Console.WriteLine("Terminating StringSorter function......");
                             break;
-                        }else{
-                            Console.WriteLine("Mark here");
+                        }
+                        else {
+      
                             List<String> L = new List<String>(input.Split(','));
                             p.StringSorter(L).ForEach(i => Console.Write("{0} ", i));
                         }
-                            
+
 
 
                     }
