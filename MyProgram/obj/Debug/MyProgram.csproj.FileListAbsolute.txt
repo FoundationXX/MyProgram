@@ -4,3 +4,9 @@ C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\bin\Deb
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\obj\Debug\MyProgram.exe
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\tmccarthy.NORTH\Desktop\Desktop Drawer\Liang\Code\MyProgram\MyProgram\bin\Debug\MyProgram.exe.config
+C:\Users\tmccarthy.NORTH\Desktop\Desktop Drawer\Liang\Code\MyProgram\MyProgram\obj\Debug\MyProgram.exe
+C:\Users\tmccarthy.NORTH\Desktop\Desktop Drawer\Liang\Code\MyProgram\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\tmccarthy.NORTH\Desktop\Desktop Drawer\Liang\Code\MyProgram\MyProgram\bin\Debug\MyProgram.exe
+C:\Users\tmccarthy.NORTH\Desktop\Desktop Drawer\Liang\Code\MyProgram\MyProgram\bin\Debug\MyProgram.pdb
+C:\Users\tmccarthy.NORTH\Desktop\Desktop Drawer\Liang\Code\MyProgram\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
