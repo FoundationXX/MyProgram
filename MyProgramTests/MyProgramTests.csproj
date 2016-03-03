@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5CD65B79-DC84-4D70-88BC-BD09A2291C93}</ProjectGuid>
+    <ProjectGuid>{D68F6DFA-5550-4A72-98DF-A13334C2AE43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyProgramUnitTests</RootNamespace>
-    <AssemblyName>MyProgramUnitTests</AssemblyName>
+    <RootNamespace>MyProgramTests</RootNamespace>
+    <AssemblyName>MyProgramTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="FibonacciTests.cs" />
-    <Compile Include="PrimeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringSorterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyProgram\MyProgram.csproj">
-      <Project>{7aa27140-2c47-4d30-8b6f-6ee325c07b71}</Project>
+      <Project>{7AA27140-2C47-4D30-8B6F-6EE325C07B71}</Project>
       <Name>MyProgram</Name>
     </ProjectReference>
   </ItemGroup>

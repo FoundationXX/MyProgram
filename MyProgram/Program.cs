@@ -6,82 +6,10 @@ using System.Threading.Tasks;
 
 namespace MyProgram
 {
-    class Program
+    public class Program
     {
-        public List<double> NthFibonacci(int n)
-        {
-            List<double> result = new List<double> { 0, 1 }; //use double to avoid overflow problem
-            Console.WriteLine("Running NthFibonacci function, assuming the first two in the list would be 0, 1......");
-            double recent0 = 0;
-            double recent1 = 1;
-            for (int i = 0; i < n - 2; i++)
-            {
-                double newFibonacci = recent0 + recent1;
-                recent0 = recent1;
-                recent1 = newFibonacci;
-                result.Add(newFibonacci);
-            }
-            //Console.WriteLine(result.ToString());
-            return result;
-        }
-
-        public List<double> PrimeNumberLister(double n)
-        {
-            List<double> result = new List<double>();
-            Console.WriteLine("Running PrimeNumberLister function, where input n > 1 is an integer......");
-            for (double i = 2; i <= n; i++)
-            {
-                if (isPrime(i))
-                {
-                    result.Add(i);
-                }
-                else
-                {
-                    continue;
-                }
-            }
-            return result;
-        }
-
-
-        /*
-        If a number x is not prime, then x = a * b, thus a <= sqrt(x) || b <=sqrt(x).
-        Therefore, to check if x is prime, we just need to check x % n, where 1 < n <= min(a, b)
-        If one n is found such that x%n == 0, then x is not prime.
-        */
-        public Boolean isPrime(double x)
-        {
-            if (x == 1)
-            {
-                return false;
-            }
-            else if (x == 2)
-            {
-                return true;
-            }
-
-            double mark = Math.Floor(Math.Sqrt(x));
-            for (double i = 2; i <= mark; i++)
-            {
-                if (x % i == 0)
-                {
-                    return false;
-                }
-
-            }
-            return true;
-        }
-
-        public List<String> StringSorter(List<String> L)
-        {
-            Console.WriteLine("Running StringSorter function......");
-            L.Sort();//......need recheck
-            return L;
-        }
-
         static void Main(string[] args)
         {
-            Program p = new Program();
             while (true)
             {
                 Console.WriteLine("USAGE: please tell the program what you want it to do for you(n is a positive integer):");
@@ -110,7 +38,8 @@ namespace MyProgram
                             }
                             else
                             {
-                                (p.NthFibonacci(value)).ForEach(i => Console.Write("{0} ", i));
+                                Fibonacci f = new Fibonacci();
+                                (f.GetFibonacciLister(value)).ForEach(i => Console.Write("{0} ", i));
 
                             }
 
@@ -145,6 +74,7 @@ namespace MyProgram
                             }
                             else
                             {
+                                Prime p = new Prime();
                                 (p.PrimeNumberLister(value)).ForEach(i => Console.Write("{0} ", i));
 
                             }
@@ -166,7 +96,7 @@ namespace MyProgram
                     while (true)
                     {
 
-                        Console.WriteLine("\nType a list of strings seperated by commas, or type q and press Enter to quit current function");
+                        Console.WriteLine("\nType a list of strings seperated by commas(no special characters in each string), or type q and press Enter to quit current function");
                         String input = Console.ReadLine();
                         //Console.WriteLine(input.ToString());
                         if (input.Equals("q") || input.Equals("Q"))
@@ -175,13 +105,11 @@ namespace MyProgram
                             break;
                         }
                         else {
-      
-                            List<String> L = new List<String>(input.Split(','));
-                            p.StringSorter(L).ForEach(i => Console.Write("{0} ", i));
+
+                            string[] L = input.Split(',');
+                            StringSorter sorter = new StringSorter();
+                            sorter.SortCommaSeparatedStrings(L).ForEach(i => Console.Write("{0} ", i));
                         }
-
-
-
                     }
                 }
 
@@ -196,3 +124,6 @@ namespace MyProgram
         }
     }
 }
+    
+    
+   

@@ -13,21 +13,25 @@ namespace MyProgramUnitTests
 	{
 
 		[TestMethod]
-		public void GetPrimeListReturnsCorrectFirst10PrimeNumbers()
+		public void PrimeNumberListerReturnsCorrectFirst10PrimeNumbers()
 		{
 			//Arrange 
 			Prime primeObj = new Prime();
-			List<int> expectedList = new List<int>() { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 };
-			List<int> actualList;
+			List<double> expectedList = new List<double>() { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 };
+			List<double> actualList;
 
-			//Act
-			actualList = primeObj.GetPrimeList(10);
+			//Act, get all prime numbers between 0 and 30 which covers the expected list exactly
+			actualList = primeObj.PrimeNumberLister(30);
 			
 			//Assert
 			//Lists are equal length
 			Assert.AreEqual(expectedList.Count, actualList.Count);
 
-			//Lists have the same numbers (Liang TODO)
+			//Lists have the same numbers
+            for(int i = 0; i < expectedList.Count; i++)
+            {
+                Assert.AreEqual(expectedList[i], actualList[i]);
+            }
 			
 		}
 	}
