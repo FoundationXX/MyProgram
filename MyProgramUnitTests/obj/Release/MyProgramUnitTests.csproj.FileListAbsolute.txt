@@ -1,6 +1,5 @@
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramUnitTests\bin\Release\MyProgramUnitTests.dll
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramUnitTests\bin\Release\MyProgramUnitTests.pdb
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramUnitTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramUnitTests\bin\Release\MyProgram.exe
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramUnitTests\bin\Release\MyProgram.pdb
 C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramUnitTests\obj\Release\MyProgramUnitTests.csprojResolveAssemblyReference.cache
