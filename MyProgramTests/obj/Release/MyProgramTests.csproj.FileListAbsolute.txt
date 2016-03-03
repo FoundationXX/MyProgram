@@ -1,8 +1,0 @@
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramTests\bin\Release\MyProgramTests.dll
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramTests\bin\Release\MyProgramTests.pdb
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramTests\bin\Release\MyProgram.exe
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramTests\bin\Release\MyProgram.pdb
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramTests\obj\Release\MyProgramTests.csprojResolveAssemblyReference.cache
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramTests\obj\Release\MyProgramTests.dll
-C:\Users\liuli\documents\visual studio 2015\Projects\MyProgram\MyProgramTests\obj\Release\MyProgramTests.pdb
