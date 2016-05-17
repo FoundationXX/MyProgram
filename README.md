@@ -1,4 +1,5 @@
 # MyProgram
+# Author: Liang Liu
 nFibonacci+nPrime+StringSort
 
 ------Updated program in OOP style
